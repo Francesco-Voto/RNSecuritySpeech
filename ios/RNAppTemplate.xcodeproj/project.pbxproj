@@ -479,7 +479,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.franceto.rickandmorty;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.franceto.rickandmorty-01";
 				PRODUCT_NAME = RNAppTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
