@@ -6,6 +6,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
+  [NSURLCache setSharedURLCache: [[NSURLCache alloc] initWithMemoryCapacity:0 diskCapacity:0 diskPath:0]];
+  [[NSURLSessionConfiguration defaultSessionConfiguration] setURLCache: nil];
   self.moduleName = @"RNSecurityChecks";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
